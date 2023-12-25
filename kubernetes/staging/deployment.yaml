@@ -17,7 +17,7 @@ spec:
         app: solar-system
     spec:
       containers:
-      - image: ${IMAGE}
+      - image: ${K8S_IMAGE}
         imagePullPolicy: Always
         name: solar-system
         ports:
